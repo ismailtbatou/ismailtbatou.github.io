@@ -1,13 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>pagina ismail</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;300&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1>Bienvenido al repositorio de Ismail</h1>
-    <h1>Aprendiendo Github</h1>
-    <h2></h2>
+
+    <div class="barra-asignaturas">
+
+        <div class="enlaces">
+            <a href="#sis">Sistemas informáticos</a>
+            <a href="#ent">Entornos de desarrollo</a>
+            <a href="#len">Lenguajes de Marcas</a>
+            <a href="#pro">Programación</a>
+            <a href="#bas">Bases de Datos</a>
+            <a href="#fol">Formación Laboral</a>
+        </div>
+
+    </div>
+
+    <div class="introduccion">
+        <span>¡Bienvenido/a a ByteAcademy!</span><br>
+        <span>El mejor centro de FP para Desarrollo de Aplicaciones!!</span><br>
+        <span>¿Quieres trabajar en un sector en constante crecimiento? ¡Éste es tu ciclo formativo!</span>
+    </div>
+
+    <div class="barra-cabecera">
+        <div id="logo">
+            <img class="imagenLogo" width="150px" src="assets/logo.png" alt="">
+        </div>
+        <p id="descuento"> -25% en tu matrícula en nuestro FP. <br> Descuento válido hasta el 25/01/2024</p>
+    </div>
+
+    <div class="portada">
+        <div class="principal">
+            <p class="parrafo-principal">
+                Temario y asignaturas del ciclo superior en desarrollo de aplicaciones multiplataforma (DAM)
+            </p>
+        </div>
+        <div class="formulario">
+            <form action="">
+                <fieldset class="container-formulario">
+                    <p>Solicita información Ciclo de FP DAM</p>
+                    <label for="nombre">Nombre <span class="asterisco">*</span></label><br>
+                    <input type="text" name="nombre" id="nombre" minlength="3" required><br>
+
+                    <label for="apellidos">Apellidos</label><br>
+                    <input type="text" id="apellidos" id="apellidos" minlength="3" required><br>
+
+                    <label for="email">Email <span class="asterisco">*</span></label><br>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="telefono">Teléfono <span class="asterisco">*</span></label><br>
+                    <input type="number" id="telefono" name="telefono" required minlength="9" maxlength="13"><br><br>
+
+
+                    <label for="seleccion">Selecciona Titulación</label><br>
+                    <select class="sele" name="seleccion" id="">
+                        <option value="">select</option>
+                        <option value="bachillerato">Bachillerato</option>
+                        <option value="ronaldo">Selectividad</option>
+                        <option value="salah">Título universitario</option>
+                        <option value="maradona">Mayor de 25 años</option>
+                        <option value="examen">Examen de acceso a Universidad</option>
+                        <option value="pelé">Otro..</option>
+                    </select> <br><br>
+
+                    <input type="checkbox" id="newsletter">
+                    <label for="newsletter">Newsletter</label><br>
+                    <label for="newsletter" class="newsletter">Deseo mantenerme informado a través de email y teléfono
+                        sobre novedades
+                        formativas por ByteAcademy.</label><br>
+
+
+                    <textarea
+                        placeholder="ByteAcademy atenderá tu solicitud de información sobre nuestros servicios formativos. Para esta finalidad y las siguientes, puedes oponerte y acceder, rectificar o suprimir tus datos y ejercitar otros derechos como se indica en nuestra política de privacidad."
+                        id="textarea" cols="30" rows="10"></textarea><br>
+
+
+
+                    <input type="checkbox" id="terminos" required><span class="asterisco">*</span>
+                    <label for="terminos">Acepto los términos de uso y de privacidad</label><br><br>
+
+
+                    <input type="submit" name="enviar" value="enviar"><br>
+
+
+                    <div class="llamaya">
+                        Llama ahora y da el salto. <br>
+                        900 699 254 <br><br>
+                        Promoción válida solo hasta el <br>
+                        21/01/2024. <br><br>
+
+                        Horario de atención telefónica: <br>de lunes a viernes <br>
+                         de 9:00h a 20:00h <br><br>
+
+                        <p>ismail@byteacademy.es</p>
+                        
+                    </div>
+
+
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="container-asignaturas">
+
+        <div id="sis" class="cajaAsignatura">
+            <div class="tituloAs">
+                Sistemas informáticos
+            </div>
+            <div class="p">La teoría que verás en Sistemas informáticos es básica para el grado superior DAM. En
+                ella
+                recibirás formación sobre explotación de sistemas informáticos, en concreto, en sistemas operativos.
+                Las
+                aplicaciones y las redes de área local también son temas principales de la asignatura.</div>
+        </div>
+        <div id="ent" class="cajaAsignatura">
+            <div class="tituloAs">
+                Entornos de Desarrollo
+            </div>
+            <div class="p">Este módulo incluye la teoría necesaria para reconocer los elementos y las herramientas
+                para
+                el desarrollo de un programa informático, evaluar entornos integrados, verificar su funcionamiento
+                mediante la realización de pruebas, optimizar el código, así como para generar diagramas de clases y
+                de
+                comportamiento.</div>
+        </div>
+        <div id="len" class="cajaAsignatura">
+            <div class="tituloAs">
+                Lenguajes de Marcas
+            </div>
+            <div class="p">En esta asignatura se refuerzan algunos de los conceptos de los módulos descritos pero,
+                el
+                punto fuerte de este temario es la aplicación de técnicas de protección contra pérdidas de
+                información y
+                amenazas externas.</div>
+        </div>
+        <div id="pro" class="cajaAsignatura">
+            <div class="tituloAs">
+                Programación
+            </div>
+            <div class="p">Suele ser la favorita del curso. En ella aprenderás el lenguaje de programación básico
+                para
+                la programación multiplataforma que te convertirá en un desarrollador capaz de enfrentarse al diseño
+                de
+                apps para cualquier dispositivo.</div>
+        </div>
+        <div id="bas" class="cajaAsignatura">
+            <div class="tituloAs">
+                Bases de Datos
+            </div>
+            <div class="p">Gracias a esta asignatura serás capaz de realizar las tareas relacionadas con la creación
+                y
+                el mantenimiento de las bases de datos de una app:
+
+                Instalar módulos para gestionar servidores.
+                Interpretar el diseño lógico para la gestión de bases de datos.
+                Elegir el lenguaje, los objetos y las herramientas para desarrollar apps con bases de datos.
+                Establecer procedimientos para distribuir y desplegar apps.</div>
+        </div>
+        <div id="fol" class="cajaAsignatura">
+            <div class="tituloAs">
+                Formación y orientación Laboral
+            </div>
+            <div class="p">Este módulo está presente en todos los ciclos de FP y es el que te dará las claves para
+                incorporarte al mercado laboral una vez que finalices el último curso. Sabrás cómo hacer un
+                curriculum,
+                dónde dirigirte y cómo contestar correctamente a las preguntas de una entrevista de trabajo.</div>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <p>
+            <img class="foto2" src="assets/foto2.png">
+
+            En <span>ByteAcademy</span>, no solo enseñamos programación; creamos experiencias educativas que transforman
+            vidas y
+            catapultamos a nuestros estudiantes hacia carreras exitosas en el emocionante mundo de la tecnología.
+            <br><br> <span>¿Por qué elegir ByteAcademy?</span>
+            Énfasis en la Experiencia del Estudiante:
+            Nos esforzamos por crear un entorno educativo positivo y enriquecedor.
+            Clases interactivas, proyectos prácticos y desafíos que inspiran el aprendizaje activo.
+            Profesores Apasionados y Expertos:
+
+            <!-- <pre> -->
+            Nuestro equipo de instructores no solo son expertos en programación, sino también apasionados por
+            compartir su conocimiento.
+            Mentoría personalizada para garantizar el éxito de cada estudiante. <br><br>
+            Foco en el Desarrollo Personal:
+
+            Más allá de la codificación, trabajamos en habilidades blandas que son clave en la industria, como el
+            trabajo en equipo, la resolución de problemas y la comunicación efectiva.
+            Lo que Dicen Nuestros Estudiantes
+            "La experiencia en ByteAcademy ha sido increíble. Me siento apoyado por un equipo docente
+            increíble y he hecho amigos para toda la vida. No solo aprendí a programar, sino también a crecer como
+            persona." - María G. <br><br>
+
+            "La combinación de teoría y práctica en ByteAcademy realmente marca la diferencia. Me gradué
+            sintiéndome confiado y preparado para enfrentar desafíos reales en el campo de la programación." - Juan
+            M.<br>
+            <br>
+            Resultados que Hablan por Sí Mismos
+            95% de Empleabilidad Post-Graduación: Nuestros graduados son altamente solicitados por empresas líderes
+            en tecnología. <br>
+
+            Satisfacción del Estudiante del 98%: Nuestros estudiantes no solo completan sus programas, sino que lo
+            hacen con sonrisas en sus rostros y habilidades en sus manos. <br>
+
+            Únete a Nuestra Comunidad de Éxito
+            En ByteAcademy, no solo te convertirás en un maestro de la programación; te unirás a una comunidad
+            vibrante y de apoyo. ¡Únete a nosotros y comienza tu viaje hacia el éxito hoy! <br>
+            <!-- </pre> -->
+        </p>
+
+    </div>
+
+
+    <div class="barra-asignaturas">
+
+        <div class="enlaces">
+            <a href="#sis">Sistemas informáticos</a>
+            <a href="#ent">Entornos de desarrollo</a>
+            <a href="#len">Lenguajes de Marcas</a>
+            <a href="#pro">Programación</a>
+            <a href="#bas">Bases de Datos</a>
+            <a href="#fol">Formación Laboral</a>
+        </div>
+
+    </div>
+
+
+
+
+
 </body>
+
 </html>
